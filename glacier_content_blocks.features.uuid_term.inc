@@ -78,7 +78,7 @@ function glacier_content_blocks_uuid_features_default_terms() {
           'status' => 1,
           'translate' => 0,
           'created' => 1440757933,
-          'changed' => 1440758104,
+          'changed' => 1442061372,
         ),
         'de' => array(
           'entity_type' => 'taxonomy_term',
@@ -90,7 +90,7 @@ function glacier_content_blocks_uuid_features_default_terms() {
           'status' => 1,
           'translate' => 0,
           'created' => 1440757947,
-          'changed' => 1440757947,
+          'changed' => 1442061380,
         ),
       ),
     ),
@@ -115,6 +115,13 @@ function glacier_content_blocks_uuid_features_default_terms() {
         ),
       ),
       'en' => array(
+        0 => array(
+          'value' => 'Highlighted grey (grey background)',
+          'format' => NULL,
+          'safe_value' => 'Highlighted grey (grey background)',
+        ),
+      ),
+      'und' => array(
         0 => array(
           'value' => 'Highlighted grey (grey background)',
           'format' => NULL,
@@ -157,7 +164,7 @@ function glacier_content_blocks_uuid_features_default_terms() {
           'status' => 1,
           'translate' => 0,
           'created' => 1440757970,
-          'changed' => 1440758115,
+          'changed' => 1442061384,
         ),
         'de' => array(
           'entity_type' => 'taxonomy_term',
@@ -169,7 +176,7 @@ function glacier_content_blocks_uuid_features_default_terms() {
           'status' => 1,
           'translate' => 0,
           'created' => 1440758011,
-          'changed' => 1440758011,
+          'changed' => 1442061391,
         ),
       ),
     ),
@@ -194,6 +201,13 @@ function glacier_content_blocks_uuid_features_default_terms() {
         ),
       ),
       'en' => array(
+        0 => array(
+          'value' => 'Container (limited width)',
+          'format' => NULL,
+          'safe_value' => 'Container (limited width)',
+        ),
+      ),
+      'und' => array(
         0 => array(
           'value' => 'Container (limited width)',
           'format' => NULL,
@@ -236,7 +250,7 @@ function glacier_content_blocks_uuid_features_default_terms() {
           'status' => 1,
           'translate' => 0,
           'created' => 1440757695,
-          'changed' => 1440758069,
+          'changed' => 1442061353,
         ),
         'de' => array(
           'entity_type' => 'taxonomy_term',
@@ -248,7 +262,7 @@ function glacier_content_blocks_uuid_features_default_terms() {
           'status' => 1,
           'translate' => 0,
           'created' => 1440757720,
-          'changed' => 1440757720,
+          'changed' => 1442061362,
         ),
       ),
     ),
@@ -322,7 +336,7 @@ function glacier_content_blocks_uuid_features_default_terms() {
           'status' => 1,
           'translate' => 0,
           'created' => 1440757903,
-          'changed' => 1440758095,
+          'changed' => 1442061335,
         ),
         'de' => array(
           'entity_type' => 'taxonomy_term',
@@ -334,7 +348,7 @@ function glacier_content_blocks_uuid_features_default_terms() {
           'status' => 1,
           'translate' => 0,
           'created' => 1440757912,
-          'changed' => 1440757912,
+          'changed' => 1442061347,
         ),
       ),
     ),

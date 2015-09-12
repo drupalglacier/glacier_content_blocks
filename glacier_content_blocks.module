@@ -4,6 +4,12 @@
  * Code for the Content blocks feature.
  */
 
+include_once 'glacier_content_blocks.features.inc';
+/**
+ * @file
+ * Code for the Content blocks feature.
+ */
+
 /**
  * Implements template_preprocess_entity().
  */
