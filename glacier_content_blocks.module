@@ -1,0 +1,22 @@
+<?php
+/**
+ * @file
+ * Code for the Content blocks feature.
+ */
+
+/**
+ * Implements template_preprocess_entity().
+ */
+function glacier_content_blocks_preprocess_entity(&$vars) {
+  // Add styles classes to the paragraph entity.
+  if (isset($vars['elements']['#entity']->field_pg_styles) && !empty($vars['elements']['#entity']->field_pg_styles[LANGUAGE_NONE])) {
+    $classes_array = array();
+    foreach ($vars['elements']['#entity']->field_pg_styles[LANGUAGE_NONE] as $delta => $item) {
+      $style = taxonomy_term_load($item['tid']);
+      foreach ($style->field_content_block_classes[LANGUAGE_NONE] as $delta => $item) {
+        $classes_array[] = $item['value'];
+      }
+    }
+    $vars['classes_array'] = array_merge($vars['classes_array'], $classes_array);
+  }
+}
