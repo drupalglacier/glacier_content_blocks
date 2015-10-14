@@ -7,7 +7,7 @@ Base feature to build content block based content types utilizing the power of t
 - Enable this feature.
 
 ## About
-Github: https://github.com/maoberlehnerdrupal/glacier_content_blocks
+Github: https://github.com/drupalglacier/glacier_content_blocks
 
 ### Author
 Markus Oberlehner  
