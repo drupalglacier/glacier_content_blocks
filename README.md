@@ -1,4 +1,4 @@
-# Content blocks
+# Content blocks (DEPRECATED!)
 Base feature to build content block based content types utilizing the power of the paragraphs module.
 
 ## Installation
